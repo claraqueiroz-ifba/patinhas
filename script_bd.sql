@@ -1,0 +1,8 @@
+CREAT DATABASE IF NOT EXISTS projeto_patinhas;
+
+CREATE TABLE usuarios(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    data_criacao DATETIME NOT NULL
+);
